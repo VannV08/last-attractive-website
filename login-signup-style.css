@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-image: url('Angkor Wat.jpg');
+    background-size: cover;
+    background-position: center;    
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    height: 100vh; /* Ensure full viewport height */
+}
+
+.logo {
+    margin-top: -200px; /* Reduced margin for smaller screens */
+}
+
+.login-box {
+    margin-top: -100px;
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 500px; /* Added max-width to prevent stretching on larger screens */
+    padding: 30px; /* Consolidated padding for simplicity */
+    border-radius: 10px;
+    text-align: center; /* Center content */
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px; /* Increased font size for better readability */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Reduced margin for smaller screens */
+}
+
+.btn-primary {
+    font-size: 16px; /* Slightly reduced font size for smaller screens */
+    padding: 12px 24px; /* Adjusted button padding */
+}
+
+.text-danger {
+    color: red;
+}
+
+#donthaveaccount {
+    text-align: center;
+    margin-top: 20px; /* Added margin for spacing */
+}
+
+.img-fluid {
+    width: 100%; /* Ensure image responsiveness */
+    max-width: 100%; /* Prevent image overflow */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Added margin for spacing */
+}
